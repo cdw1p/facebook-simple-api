@@ -1,0 +1,32 @@
+{
+  "name": "facebook-simple-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/testing.js"
+  },
+  "author": "cdw1",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "node-fetch": "^2.6.0"
+  },
+  "keywords": [
+    "facebook-accept-friend",
+    "facebook-unfriend",
+    "facebook-api",
+    "unofficial facebook-api"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cdw1p/facebook-simple-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cdw1p/facebook-simple-api/issues"
+  },
+  "homepage": "https://github.com/cdw1p/facebook-simple-api.git#readme",
+  "directories": {
+    "test": "test"
+  }
+}
