@@ -31,7 +31,15 @@ const LIMIT_FETCH = '5'
 // Method
 ```
 
-- #### Get User Friend List
+- Get User Information
+```js
+getUserInfo(ID_USER, ACCESS_TOKEN)
+.then(response => {
+  console.log(response)
+})
+```
+
+- Get User Friend List
 ```js
 getFriendList(ACCESS_TOKEN)
 .then(response => {
@@ -39,7 +47,7 @@ getFriendList(ACCESS_TOKEN)
 })
 ```
 
-- #### Get All Friend Request
+- Get All Friend Request
 ```js
 getFriendRequest(ACCESS_TOKEN)
 .then(response => {
@@ -47,7 +55,7 @@ getFriendRequest(ACCESS_TOKEN)
 })
 ```
 
-- #### Get Your Latest Feed
+- Get Your Latest Feed
 ```js
 getLatestFeed(LIMIT_FETCH, ACCESS_TOKEN)
 .then(response => {
@@ -55,7 +63,7 @@ getLatestFeed(LIMIT_FETCH, ACCESS_TOKEN)
 })
 ```
 
-- #### Get Last Activity User
+- Get Last Activity User
 ```js
 getLastActiveUser(ID_USER, ACCESS_TOKEN)
 .then(response => {
@@ -63,7 +71,7 @@ getLastActiveUser(ID_USER, ACCESS_TOKEN)
 })
 ```
 
-- #### Like Status
+- Like Status
 ```js
 postLikeStatus(ID_STATUS, ACCESS_TOKEN)
 .then(response => {

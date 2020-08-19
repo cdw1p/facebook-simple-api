@@ -5,10 +5,10 @@ const ID_STATUS = '100000502834385_3933036873389702'
 const LIMIT_FETCH = '5'
 
 ;(async () => {
-  getUserInfo(ID_USER, ACCESS_TOKEN)
-  .then(response => {
-    console.log(response)
-  })
+  // getUserInfo(ID_USER, ACCESS_TOKEN)
+  // .then(response => {
+  //   console.log(response)
+  // })
 
   // getFriendList(ACCESS_TOKEN)
   // .then(response => {
